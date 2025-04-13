@@ -1,8 +1,6 @@
-# 🍕 Amazon Fine Food Reviews - Sentiment Analysis
+# Amazon Fine Food Reviews - Sentiment Analysis
 This repository contains sentiment analysis of Amazon Fine Food Reviews to identify factors influencing customer satisfaction.
-![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![NLP](https://img.shields.io/badge/Natural%20Language-Processing-orange)
+
 
 ## Project Overview
 
