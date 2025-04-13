@@ -41,3 +41,26 @@ pip install -r requirements.txt
 
 ## License
 Copyright © 2024 Ian Kamar. All rights reserved.
+# 🍕 Amazon Fine Food Reviews - Sentiment Analysis
+
+![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![NLP](https://img.shields.io/badge/Natural%20Language-Processing-orange)
+
+## 📌 Project Overview
+Machine learning pipeline to analyze sentiment patterns in 500,000+ Amazon food product reviews. Identifies key drivers of customer satisfaction through:
+
+- **Text Classification** (Positive/Negative sentiment)
+- **Topic Modeling** (LDA/NMF)
+- **Feature Importance** Analysis
+- **Interactive Visualizations**
+
+**Key Achievements:**
+- 92% accuracy with BERT embeddings
+- Identified top 5 complaint categories
+- Automated report generation
+
+## 📂 Dataset
+[Amazon Fine Food Reviews](https://www.kaggle.com/snap/amazon-fine-food-reviews) (568,454 reviews)
+```sql
+SELECT Score, Text FROM Reviews WHERE Score != 3; -- 525,814 polarized reviews
